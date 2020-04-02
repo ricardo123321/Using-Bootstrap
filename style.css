@@ -2,6 +2,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    position: relative;
+    z-index: -2;
 }
 
 .logo {
@@ -114,9 +116,6 @@ notices {
 }
 
 @media screen and (max-width:1199px) {
-    .as {
-        min-width: 100vw;
-    }
 }
 
 @media screen and (max-width:991px) {
@@ -417,4 +416,86 @@ inside {
 }
 
 .div-art {
+}
+
+.cor-week {
+    top: 17px;
+    right: 45px;
+}
+
+.magazine-img {
+}
+
+.new-wk {
+    position: relative;
+    left: 45px;
+}
+
+.art {
+    background-color: #dcdcdc;
+    padding-bottom: 24px;
+}
+
+.bt-sub {
+    display: flex;
+    align-items: center;
+    margin-left: calc(50vw - 87px);
+    margin-top: 23px;
+}
+
+.phone {
+    height: 160px;
+    background: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5) center center / cover no-repeat;
+}
+
+.log {
+    width: 300px;
+    position: relative;
+    z-index: -2;
+    bottom: 100px;
+    float: left;
+}
+
+.copyr {
+    clear: left;
+    margin-top: -12px;
+}
+
+.logo-trans {
+    width: 250px;
+}
+
+footer {
+    margin-top: 22px;
+}
+
+.newl {
+}
+
+.newl i {
+    font-size: 25px;
+    margin-right: 7px;
+    color: #b1aeae;
+}
+
+.footer-ul {
+    list-style-type: none;
+    margin-left: 10px;
+}
+
+.footer-ul li {
+    padding-right: 10px;
+    border-right: 1px solid #cfc3c3;
+    padding-left: 10px;
+}
+
+li.no-right {
+    border-right: 0 solid;
+    padding-right: 0;
+}
+
+@media screen and (min-width:768px) {
+    .new-ro article {
+        width: 30%;
+    }
 }
