@@ -502,3 +502,14 @@ li.no-right {
 
 .oderr {
 }
+
+main {
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 10px;
+    padding-left: -;
+}
+
+.culture-item {
+    margin-right: 20px;
+}
