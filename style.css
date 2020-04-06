@@ -314,7 +314,6 @@ h3 {
 }
 
 .n-icon {
-    display: block;
     width: 29px;
     height: 28px;
     background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
@@ -322,6 +321,7 @@ h3 {
     float: left;
     margin-top: 10px;
     position: relative;
+    z-index: 11;
 }
 
 .border-secundary {
@@ -341,6 +341,7 @@ a {
     text-align: center;
     padding-top: 5px;
     padding-bottom: 5px;
+    background-color: #e2d9d9;
 }
 
 .bg-red {
@@ -384,10 +385,10 @@ inside {
     content: "";
     width: 26px;
     height: 25px;
-    bottom: 3px;
-    right: -6px;
+    z-index: -3;
     position: relative;
-    z-index: -1;
+    top: 5px;
+    left: 6px;
 }
 
 .count-link {
@@ -504,12 +505,36 @@ li.no-right {
 }
 
 main {
-    margin-right: 15px;
-    margin-left: 15px;
     margin-top: 10px;
-    padding-left: -;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .culture-item {
-    margin-right: 20px;
+    width: 30%;
+}
+
+.more-stories .ar-h4 {
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.block-title {
+    color: #959393;
+}
+
+.firts-row article {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.ft-items article {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.sub-txt {
+    bottom: 32px;
+    background-color: #e6dada;
+    color: #ff0000;
 }
