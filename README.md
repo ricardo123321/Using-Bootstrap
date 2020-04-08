@@ -1,11 +1,8 @@
 # firts boostrap page
- Displaying and Inputting Data
 
-Created a form page.
+Created a page making use of bootstrap
 
 ![screenshot](./img-sc.png)
-
-This is our second project.
 
 ## Built With
 
