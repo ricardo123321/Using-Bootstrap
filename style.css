@@ -125,9 +125,6 @@ notices {
 }
 
 @media screen and (max-width:1199px) {
-    .notices {
-        min-width: 100vw;
-    }
 }
 
 a:hover {
@@ -168,7 +165,9 @@ a:hover {
 }
 
 .press {
+    position: relative;
     float: left;
+    clear: both;
 }
 
 txt-art {
@@ -424,28 +423,19 @@ inside {
     right: 45px;
 }
 
-.magazine-img {
-}
-
 .new-wk {
     position: relative;
     left: 45px;
 }
 
-.art {
-    background-color: #dcdcdc;
-    padding-bottom: 24px;
-}
-
 .bt-sub {
-    display: flex;
     align-items: center;
-    margin-left: calc(50vw - 87px);
+    display: flex;
     margin-top: 23px;
 }
 
 .phone {
-    height: 160px;
+    height: 375px;
     background: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5) center center / cover no-repeat;
 }
 
@@ -481,7 +471,6 @@ footer {
 
 .footer-ul {
     list-style-type: none;
-    margin-left: 10px;
 }
 
 .footer-ul li {
@@ -537,4 +526,182 @@ main {
     bottom: 32px;
     background-color: #e6dada;
     color: #ff0000;
+}
+
+.subs-let {
+    background-color: #d4d4d4;
+}
+
+.ar-h45 {
+    font-size: 16px;
+}
+
+@media screen and (max-width:1199px) {
+    .editors-pick .firts-row {
+    }
+
+    .main {
+        padding: 0;
+        margin: 0;
+        max-width: 100vw;
+    }
+
+    .as {
+        padding: 0;
+        margin: 0;
+        min-width: 100%;
+    }
+
+    .foot {
+        margin: 0;
+        min-width: 100%;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .phone {
+        height: auto;
+        position: relative;
+    }
+
+    .art {
+        min-width: 100%;
+    }
+
+    .art .bt-sub {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .opinion-items .border-secondary {
+    }
+}
+
+@media screen and (max-width:767px) {
+    .imgp {
+        width: 100%;
+    }
+
+    .culture-item {
+        width: 100%;
+    }
+
+    .culture-item article {
+        width: 100%;
+    }
+
+    .culture-item img {
+        width: 100%;
+    }
+
+    .firts-row article {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    main {
+    }
+
+    .opinion {
+    }
+
+    .opinion p.font-weight-bold {
+    }
+
+    .opinion img {
+        position: relative;
+        top: 2px;
+        height: 43px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .opinion img {
+        top: 7px;
+        height: 50px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .latest .wrap {
+        clear: both;
+    }
+
+    .latest {
+        margin-bottom: 20px;
+    }
+
+    .to-fix {
+    }
+}
+
+.rezise {
+    height: 83px;
+}
+
+.col3 .latest article {
+    clear: both;
+}
+
+@media screen and (max-width:991px) {
+    .col3 .latest article {
+        height: 131px;
+    }
+}
+
+@media screen and (max-width:767px) {
+}
+
+@media screen and (max-width:574px) {
+    .phone {
+        height: 100px;
+    }
+}
+
+@media screen and (max-width:574px) {
+    .txt-all {
+        text-align: center;
+        clear: both;
+    }
+
+    .art {
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width:574px) {
+    .cor-week {
+        margin-bottom: 10px;
+    }
+
+    .movement {
+        float: none !important;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .txt-all {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:574px) {
+    .magazine-img {
+        display: flex;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .rezise {
+        height: 125px;
+    }
+}
+
+.news-img {
+}
+
+@media screen and (min-width:799px) and (max-width:991px) {
+    .news-img {
+        height: 307px;
+    }
 }
