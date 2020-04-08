@@ -626,7 +626,7 @@ main {
   }
 }
 
-@media screen and (max-width: 991px) { 
+@media screen and (max-width: 991px) {
   .only-txt2 {
     display: inline-block;
   }
