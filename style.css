@@ -568,11 +568,6 @@ main {
         min-width: 100%;
     }
 
-    .art .bt-sub {
-        margin-left: auto;
-        margin-right: auto;
-    }
-
     .opinion-items .border-secondary {
     }
 }
@@ -703,5 +698,30 @@ main {
 @media screen and (min-width:799px) and (max-width:991px) {
     .news-img {
         height: 307px;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .only-txt {
+        padding-right: ;
+    }
+
+    .only-txt2 {
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .art .bt-sub {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .only-txt2 {
+        display: block;
+    }
+
+    .mt-2.stories {
+        width: 100%;
     }
 }
