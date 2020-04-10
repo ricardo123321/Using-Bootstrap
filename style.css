@@ -610,12 +610,6 @@ main {
   }
 }
 
-@media screen and (min-width: 799px) and (max-width: 991px) {
-  .news-img {
-    width: ;
-  }
-}
-
 @media screen and (max-width: 991px) {
   .only-txt2 {
     display: inline-block;
