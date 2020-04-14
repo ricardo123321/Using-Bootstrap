@@ -1,674 +1,769 @@
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  position: relative;
-  z-index: -2;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    z-index: -2;
+    margin: 0;
 }
 
 .logo {
-  margin-left: -16px;
-  margin-top: 4px;
-  height: 39px;
+    margin-left: -16px;
+    margin-top: 4px;
+    height: 39px;
 }
 
 .nav1 {
-  background-color: #f00;
-  align-items: center;
+    background-color: #f00;
+    align-items: center;
 }
 
 @media screen and (max-width: 767px) {
-  .nav1 {
-    margin: 0;
-    min-width: 100vw;
-  }
+    .nav1 {
+        margin: 0;
+        min-width: 100vw;
+    }
 }
 
 .weather {
-  width: 30px;
+    width: 30px;
 }
 
 @media screen and (max-width: 575px) {
-  .location {
-    display: none;
-  }
+    .location {
+        display: none;
+    }
 }
 
 .new-sb {
-  justify-content: flex-end;
+    justify-content: flex-end;
 }
 
 @media screen and (max-width: 399px) {
-  .cloudy {
-    display: none;
-  }
+    .cloudy {
+        display: none;
+    }
 }
 
 .as {
-  background-color: #f00;
+    background-color: #f00;
 }
 
 @media screen and (min-width: 992px) {
-  .Logo {
-    width: 500px;
-    margin-left: 10vw;
-  }
+    .Logo {
+        width: 500px;
+        margin-left: 10vw;
+    }
 
-  .second-p {
-    order: 1;
-  }
+    .second-p {
+        order: 1;
+    }
 
-  .final-p {
-    order: 2;
-    margin-top: 40px;
-  }
+    .final-p {
+        order: 2;
+        margin-top: 40px;
+    }
 
-  .cloudy {
-    line-height: 40px;
-    margin-left: 20px;
-  }
+    .cloudy {
+        line-height: 40px;
+        margin-left: 20px;
+    }
 }
 
 @media screen and (min-width: 1200px) {
-  .Logo {
-    margin-left: 175px;
-  }
+    .Logo {
+        margin-left: 175px;
+    }
 }
 
 .float-l {
-  width: 80px;
+    width: 80px;
 }
 
 .notices {
-  padding-left: 0;
-  margin-top: -22px;
-  background-color: #fff;
-  position: relative;
-  padding-right: 0;
-  height: 50px;
-  line-height: 50px;
+    padding-left: 0;
+    margin-top: -22px;
+    background-color: #fff;
+    position: relative;
+    padding-right: 0;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: -14px;
 }
 
 .txt {
-  border-style: none;
-  width: 62px;
+    border-style: none;
+    width: 62px;
 }
 
 @media screen and (max-width: 991px) {
-  .Logo {
-    width: 150px;
-  }
+    .Logo {
+        width: 150px;
+    }
 }
 
 @media screen and (max-width: 991px) {
-  .notices {
-    display: none;
-  }
+    .notices {
+        display: none;
+    }
 }
 
 a {
-  color: #000;
+    color: #000;
 }
 
 a:hover {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .notices a {
-  color: #000;
-  border-right: 1px solid #968585;
-  padding-right: 4px;
-  margin-right: -3px;
+    color: #000;
+    border-right: 1px solid #968585;
+    padding-right: 4px;
+    margin-right: -3px;
 }
 
 @media screen and (max-width: 991px) {
-  .date {
-    display: none;
-  }
+    .date {
+        display: none;
+    }
 }
 
 @media screen and (min-width: 992px) {
-  .whole-n {
-    margin-bottom: 25px;
-  }
+    .whole-n {
+        margin-bottom: 25px;
+    }
 }
 
 .firts-Li {
-  margin-left: 10px;
+    margin-left: 10px;
 }
 
 @media screen and (min-width: 1200px) {
-  .notices a {
-    padding-right: 10px;
-  }
+    .notices a {
+        padding-right: 10px;
+    }
 }
 
 .press {
-  position: relative;
-  float: left;
-  clear: both;
+    position: relative;
+    float: left;
+    clear: both;
 }
 
 h4.txt-art {
-  font-size: 16px;
-  color: #000;
-  margin-left: 104px;
-  margin-right: 30px;
+    font-size: 16px;
+    color: #000;
+    margin-left: 104px;
+    margin-right: 30px;
 }
 
 p.txt-p {
-  font-size: 13px;
-  margin-left: 104px;
-  margin-right: 30px;
+    font-size: 13px;
+    margin-left: 104px;
+    margin-right: 30px;
 }
 
 .bor-two {
-  padding-top: 15px;
-  padding-bottom: 5px;
-  border-top: 1px solid #d1cbcb;
-  border-bottom: 1px solid #c3b9b9;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    border-top: 1px solid #d1cbcb;
+    border-bottom: 1px solid #c3b9b9;
 }
 
 .txt-h4 {
-  font-size: 14px;
-  color: #000;
+    font-size: 14px;
+    color: #000;
 }
 
 .border-up {
-  border-top: 1px solid #dacfcf;
+    border-top: 1px solid #dacfcf;
 }
 
 .opinion p {
-  margin-top: 0;
-  margin-bottom: 6px;
-  margin-left: 80px;
-  font-size: 12px;
+    margin-top: 0;
+    margin-bottom: 6px;
+    margin-left: 80px;
+    font-size: 12px;
 }
 
 .text-gray {
-  color: #878383;
+    color: #878383;
 }
 
 .div-art article {
-  padding-bottom: 10px;
-  padding-top: 10px;
-  border-bottom: 1px solid #d8cece;
-  line-height: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px solid #d8cece;
+    line-height: 30px;
 }
 
 article.last-art {
-  border-bottom-style: none;
+    border-bottom-style: none;
 }
 
 .img-vs {
-  width: 95px;
-  height: 95px;
+    width: 95px;
+    height: 95px;
 }
 
 .blue {
-  border-top: 4px solid #f00;
-  position: relative;
-  bottom: 2px;
-  top: -3px;
-  font-size: 13px;
-  padding-left: 110px;
+    border-top: 4px solid #f00;
+    position: relative;
+    bottom: 2px;
+    top: -3px;
+    font-size: 13px;
+    padding-left: 110px;
 }
 
 .rigth {
-  z-index: 3;
-  height: 60px;
-  float: right;
-  margin-top: 33px;
+    z-index: 3;
+    height: 60px;
+    float: right;
+    margin-top: 33px;
 }
 
 .floated {
-  clear: left;
-  margin-top: 60px;
-  border-top: 5px double #cabebe;
+    clear: left;
+    margin-top: 60px;
+    border-top: 5px double #cabebe;
 }
 
 .vs {
-  width: 39px;
-  border-radius: 100px;
-  background-color: #000;
-  border: 7px solid #000;
-  color: #fff;
-  text-align: center;
-  margin: 42px auto 25px;
+    width: 39px;
+    border-radius: 100px;
+    background-color: #000;
+    border: 7px solid #000;
+    color: #fff;
+    text-align: center;
+    margin: 42px auto 25px;
 }
 
 .red {
-  border-top-color: #1f00ff;
+    border-top-color: #1f00ff;
 }
 
 h3 {
-  font-size: 20px;
-  font-weight: bolder;
+    font-size: 20px;
+    font-weight: bolder;
 }
 
 .art-h4 {
-  font-size: 17px;
-  font-weight: bolder;
-  margin-top: 10px;
+    font-size: 17px;
+    font-weight: bolder;
+    margin-top: 10px;
 }
 
 .bor-one {
-  padding-top: 15px;
-  padding-bottom: 25px;
-  border-bottom: 1px solid #c3b9b9;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #c3b9b9;
 }
 
 .bor-only {
-  padding-bottom: 70px;
+    padding-bottom: 70px;
 }
 
 .bor-un {
-  padding-bottom: 50px;
+    padding-bottom: 50px;
 }
 
 .newbtn {
-  width: 300px;
-  background-color: #d8d8d8;
-  padding-left: 20px;
-  padding-top: 20px;
-  padding-right: 15px;
-  margin: 40px auto;
+    width: 300px;
+    background-color: #d8d8d8;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 15px;
+    margin: 40px auto;
 }
 
 .line {
-  height: 20px;
+    height: 20px;
 }
 
 .n-icon {
-  width: 29px;
-  height: 28px;
-  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
-  margin-right: 10px;
-  float: left;
-  margin-top: 10px;
-  position: relative;
-  z-index: 11;
+    width: 29px;
+    height: 28px;
+    background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+    margin-right: 10px;
+    float: left;
+    margin-top: 10px;
+    position: relative;
+    z-index: 11;
 }
 
 .border-secundary {
-  border: 1px solid #909090;
+    border: 1px solid #909090;
 }
 
 .bl-line {
-  height: 10px;
-  margin-bottom: 3px;
+    height: 10px;
+    margin-bottom: 3px;
 }
 
 .all-features {
-  text-align: center;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  background-color: #e2d9d9;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #e2d9d9;
 }
 
 .bg-red {
-  float: left;
-  padding: 3px 5px;
-  background-color: #ff0b0b;
-  position: relative;
+    float: left;
+    padding: 3px 5px;
+    background-color: #ff0b0b;
+    position: relative;
 }
 
 .p-art {
-  clear: both;
+    clear: both;
 }
 
 .inside {
-  position: relative;
-  bottom: 38px;
+    position: relative;
+    bottom: 38px;
 }
 
 .last {
-  position: relative;
+    position: relative;
 }
 
 .magazine {
-  font-size: 18px;
-  margin-top: 10px;
+    font-size: 18px;
+    margin-top: 10px;
 }
 
 .nn-icon {
-  border-bottom: 3px solid red;
-  border-right: 3px solid red;
-  display: block;
-  content: "";
-  width: 26px;
-  height: 25px;
-  z-index: -3;
-  position: relative;
-  top: 5px;
-  left: 6px;
+    border-bottom: 3px solid red;
+    border-right: 3px solid red;
+    display: block;
+    content: "";
+    width: 26px;
+    height: 25px;
+    z-index: -3;
+    position: relative;
+    top: 5px;
+    left: 6px;
 }
 
 .count-link {
-  width: 70px;
-  height: 52px;
-  display: block;
-  position: relative;
-  bottom: 47px;
-  left: -9px;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 58px;
-  text-indent: 5px;
-  text-align: center;
-  background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0/contain no-repeat;
-  color: #e9212e;
+    width: 70px;
+    height: 52px;
+    display: block;
+    position: relative;
+    bottom: 47px;
+    left: -9px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 58px;
+    text-indent: 5px;
+    text-align: center;
+    background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0/contain no-repeat;
+    color: #e9212e;
 }
 
 .up-txt {
-  position: relative;
-  bottom: 30px;
+    position: relative;
+    bottom: 30px;
 }
 
 .text-red {
-  color: #f00;
+    color: #f00;
 }
 
 .cor-week {
-  top: 17px;
-  right: 45px;
+    top: 17px;
+    right: 70px;
+    height: 285px;
 }
 
 .new-wk {
-  position: relative;
-  left: 45px;
+    position: relative;
+    left: 45px;
+    height: 285px;
 }
 
 .bt-sub {
-  align-items: center;
-  display: flex;
-  margin-top: 23px;
+    align-items: center;
+    display: flex;
+    margin-top: 23px;
+    background-color: #ff0000;
 }
 
 .phone {
-  height: 375px;
-  background: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5) center center / cover no-repeat;
+    height: 375px;
+    background: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5) center center / cover no-repeat;
 }
 
 .log {
-  width: 300px;
-  position: relative;
-  z-index: -2;
-  bottom: 100px;
-  float: left;
+    width: 300px;
+    position: relative;
+    z-index: -2;
+    bottom: 100px;
+    float: left;
 }
 
 .copyr {
-  clear: left;
-  font-size: 15px;
+    clear: left;
+    font-size: 15px;
 }
 
 .logo-trans {
-  width: 250px;
+    width: 250px;
 }
 
 footer {
-  margin-top: 22px;
+    margin-top: 22px;
 }
 
 .newl i {
-  font-size: 25px;
-  margin-right: 7px;
-  color: #b1aeae;
+    font-size: 25px;
+    margin-right: 7px;
+    color: #b1aeae;
 }
 
 .footer-ul {
-  list-style-type: none;
+    list-style-type: none;
 }
 
-.footer-ul li {
-  padding-right: 10px;
-  border-right: 1px solid #cfc3c3;
-  padding-left: 10px;
+.footer-ul a {
+    padding-right: 10px;
+    border-right: 1px solid #cfc3c3;
+    padding-left: 10px;
 }
 
-li.no-right {
-  border-right: 0 solid;
-  padding-right: 0;
+a.no-right {
+    border-right: 0 solid;
+    padding-right: 0;
 }
 
 @media screen and (min-width: 768px) {
-  .new-ro article {
-    width: 30%;
-  }
+    .new-ro article {
+        width: 30%;
+    }
 }
 
 main {
-  margin-top: 10px;
-  padding-left: 15px;
-  padding-right: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    z-index: -5;
 }
 
 .culture-item {
-  width: 30%;
+    width: 30%;
 }
 
 .more-stories .ar-h4 {
-  font-size: 16px;
-  font-weight: bolder;
+    font-size: 16px;
+    font-weight: bolder;
 }
 
 .block-title {
-  color: #959393;
+    color: #959393;
 }
 
 .firts-row article {
-  padding-right: 15px;
-  padding-left: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 .ft-items article {
-  padding-right: 15px;
-  padding-left: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 .sub-txt {
-  bottom: 32px;
-  background-color: #e6dada;
-  color: #f00;
+    bottom: 32px;
+    background-color: #e6dada;
+    color: #f00;
 }
 
 .subs-let {
-  background-color: #d4d4d4;
+    background-color: #d4d4d4;
 }
 
 .ar-h45 {
-  font-size: 16px;
+    font-size: 16px;
 }
 
 @media screen and (max-width: 1299px) {
-  .main {
-    padding: 0;
-    margin: 0;
-    max-width: 100vw;
-  }
+    .main {
+        padding: 0;
+        margin: 0;
+    }
 
-  .as {
-    padding: 0;
-    margin: 0;
-    min-width: 100%;
-  }
+    .as {
+        padding: 0;
+        margin: 0;
+        min-width: 100%;
+    }
 
-  .foot {
-    margin: 0;
-    min-width: 100%;
-  }
+    .foot {
+        margin: 0;
+        min-width: 100%;
+    }
 }
 
 @media screen and (max-width: 991px) {
-  .phone {
-    height: auto;
-    position: relative;
-  }
+    .phone {
+        height: auto;
+        position: relative;
+    }
 
-  .art {
-    min-width: 100%;
-  }
+    .art {
+        min-width: 100%;
+    }
 }
 
 @media screen and (max-width: 767px) {
-  .imgp {
-    width: 100%;
-  }
+    .imgp {
+        width: 100%;
+    }
 
-  .culture-item {
-    width: 100%;
-  }
+    .culture-item {
+        width: 100%;
+    }
 
-  .culture-item article {
-    width: 100%;
-  }
+    .culture-item article {
+        width: 100%;
+    }
 
-  .culture-item img {
-    width: 100%;
-  }
+    .culture-item img {
+        width: 100%;
+    }
 
-  .firts-row article {
-    padding-right: 0;
-    padding-left: 0;
-  }
+    .firts-row article {
+        padding-right: 0;
+        padding-left: 0;
+    }
 }
 
 @media screen and (max-width: 479px) {
-  .opinion img {
-    top: 7px;
-    height: 50px;
-  }
+    .opinion img {
+        top: 7px;
+        height: 50px;
+    }
 }
 
 @media screen and (max-width: 767px) {
-  .latest .wrap {
-    clear: both;
-  }
+    .latest .wrap {
+        clear: both;
+    }
 
-  .latest {
-    margin-bottom: 20px;
-  }
+    .latest {
+        margin-bottom: 20px;
+    }
 }
 
 .rezise {
-  height: 83px;
+    height: 83px;
 }
 
 .col3 .latest article {
-  clear: both;
+    clear: both;
 }
 
 @media screen and (max-width: 991px) {
-  .col3 .latest article {
-    height: 131px;
-  }
+    .col3 .latest article {
+        height: 131px;
+    }
 }
 
 @media screen and (max-width: 574px) {
-  .phone {
-    height: 100px;
-  }
+    .phone {
+        height: 100px;
+    }
 }
 
 @media screen and (max-width: 574px) {
-  .txt-all {
-    text-align: center;
-    clear: both;
-  }
+    .txt-all {
+        text-align: center;
+        clear: both;
+    }
 
-  .art {
-    margin-bottom: 15px;
-  }
+    .art {
+        margin-bottom: 15px;
+    }
 }
 
 @media screen and (max-width: 574px) {
-  .cor-week {
-    margin-bottom: 10px;
-  }
+    .cor-week {
+        height: 200px;
+        margin-bottom: 10px;
+    }
 
-  .movement {
-    float: none !important;
-  }
+    .movement {
+        float: none !important;
+    }
 }
 
 @media screen and (max-width: 767px) {
-  .txt-all {
-    text-align: center;
-  }
+    .txt-all {
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 574px) {
-  .magazine-img {
-    display: flex;
-  }
+    .magazine-img {
+        display: flex;
+    }
 }
 
 @media screen and (min-width: 1024px) {
-  .rezise {
-    height: 125px;
-  }
+    .rezise {
+        height: 125px;
+    }
 }
 
 @media screen and (max-width: 991px) {
-  .only-txt2 {
-    display: inline-block;
-  }
+    .only-txt2 {
+        display: inline-block;
+    }
 }
 
 @media screen and (max-width: 992px) {
-  .art .bt-sub {
-    margin-left: auto;
-    margin-right: auto;
-  }
+    .art .bt-sub {
+        margin-right: auto;
+        margin-left: auto;
+    }
 
-  .only-txt2 {
-    display: block;
-  }
-
-  .mt-2.stories {
-    width: 100%;
-  }
+    .mt-2.stories {
+        width: 100%;
+    }
 }
 
 @media screen and (min-width: 1300px) {
-  nav.as.container.nav {
-    max-width: 1300px;
-  }
+    nav.as.container.nav {
+        max-width: 1300px;
+    }
 }
 
 @media screen and (max-width: 1299px) {
-  .notices {
-    min-width: 100%;
-  }
+    .notices {
+        min-width: 100%;
+    }
 }
 
 @media screen and (min-width: 1300px) {
-  .notices {
-    max-width: 1300px;
-  }
+    .notices {
+        max-width: 1300px;
+    }
 
-  .col-st {
-    max-width: 1300px;
-  }
+    .col-st {
+        max-width: 1300px;
+    }
 }
 
-@media screen and (max-width: 1199px) {
-  .col-st {
-    max-width: 100%;
-  }
+@media screen and (max-width: 1299px) {
+    .col-st {
+        max-width: 100%;
+    }
 }
 
 @media screen and (min-width: 1300px) {
-  .foot {
-    max-width: 1300px;
-  }
+    .foot {
+        max-width: 1300px;
+    }
 }
 
 .in-themz img.bl-line {
-  height: 12px;
+    height: 12px;
 }
 
 .in-themz p {
-  margin-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+@media screen and (max-width:767px) {
+    .footer-ul a {
+        border-right-style: none;
+    }
+}
+
+.new-size {
+}
+
+@media screen and (min-width:992px) {
+    .imgo {
+        min-height: 200px;
+        height: 19vw;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .imgo {
+        height: calc(100% - 110px);
+    }
+}
+
+@media screen and (min-width:1070px) {
+    .imgo {
+        height: calc(100% - 94.64px);
+    }
+}
+
+@media screen and (min-width:1200px) {
+}
+
+.movement {
+    margin-right: -45px;
+    margin-left: -32px;
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .txt-subs {
+        margin-top: 96px;
+    }
+}
+
+@media screen and (min-width:575px) and (max-width:767px) {
+    .txt-subs {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width:574px) {
+    .new-wk {
+        height: 200px;
+    }
+}
+
+@media screen and (min-width:575px) and (max-width:767px) {
+    .new-wk {
+        height: 250px;
+    }
+
+    .cor-week {
+        height: 250px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+}
+
+@media screen and (max-width:991px) {
+    .f-Nav {
+        position: fixed;
+        background-color: #ff0000;
+    }
+
+    main {
+        margin-top: 36px;
+    }
+}
+
+@media screen and (max-width:1299px) {
+    .colwrap {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width:1299px) {
+    main {
+        width: 100%;
+        padding-right: 0;
+        padding-left: 0;
+    }
 }
