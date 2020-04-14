@@ -1,6 +1,6 @@
 # firts boostrap page
 
-Created a page making use of bootstrap
+Created a clone page of the newsweek front page making use of boostrap 
 
 ![screenshot](./img-sc.png)
 
